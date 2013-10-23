@@ -6,5 +6,3 @@ python:
 before_install:
     - pip install pyserial
 script: python setup.py test
-notifications:
- email : false
